@@ -1,10 +1,13 @@
 body {
-  background-color: rgb(200,200,200);
-  width: 800px;
+  width: 700px;
   margin: 0 auto;
+  padding: 15%;
+  background-color: rgb(100,100,100);
 }
 
 h4 {
+  font-size: 34px;
+  font-family: monospace;
   text-align: center;
 }
 
@@ -18,7 +21,7 @@ kbd {
 }
 
 .keys {
-  width: 800px;
+  width: 700px;
   display: flex;
   text-align: center;
   font-size: 12px;
@@ -29,8 +32,9 @@ kbd {
   flex: 1;
   height: 50px;
   width: 50px;
-  border: 1px solid black;
   margin: 0 10px;
+  background-color: white;
+  border: 1px solid black;
   transition: all 0.07s;
 }
 
@@ -38,9 +42,4 @@ kbd {
   transform: scale(1.1);
   border-color: #ffc600;
   box-shadow: 0 0 10px #ffc600;
-}
-
-.key:hover {
-  border: 1px solid yellow;
-  background-color: grey;
 }
