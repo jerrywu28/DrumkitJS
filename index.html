@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>JavaScript Drumkit</title>
+    <h4>Drop that 808 beat!</h4>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="keys">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">Clap</span>
+      </div>
+      <div data-key="75" class="key">
+        <kbd>S</kbd>
+        <span class="sound">Snare</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">Kick</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">Openhat</span>
+      </div>
+      <div data-key="32" class="key">
+        <kbd>Space</kbd>
+        <span class="sound">Boom</span>
+      </div>
+      <div data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound">Ride</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>K</kbd>
+        <span class="sound">Hi-Hat</span>
+      </div>
+      <div data-key="76" class="key">
+        <kbd>L</kbd>
+        <span class="sound">Tom</span>
+      </div>
+      <div data-key="186" class="key">
+        <kbd>;</kbd>
+        <span class="sound">Tink</span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="assets/808/clap.wav"></audio>
+    <audio data-key="83" src="assets/808/snare.wav"></audio>
+    <audio data-key="68" src="assets/808/kick.wav"></audio>
+    <audio data-key="70" src="assets/808/openhat.wav"></audio>
+    <audio data-key="32" src="assets/808/boom.wav"></audio>
+    <audio data-key="74" src="assets/808/ride.wav"></audio>
+    <audio data-key="75" src="assets/808/hihat.wav"></audio>
+    <audio data-key="76" src="assets/808/tom.wav"></audio>
+    <audio data-key="186" src="assets/808/tink.wav"></audio>
+
+    <script src="jsdrumkit.js"></script>
+  </body>
+
+</html>
